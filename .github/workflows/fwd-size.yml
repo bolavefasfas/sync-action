@@ -1,4 +1,4 @@
-name: AutoSync Actions
+name: Cek Size
 on:
   workflow_dispatch:
 jobs:
