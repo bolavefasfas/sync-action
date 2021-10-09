@@ -1,7 +1,7 @@
 name: AutoSync Actions
 on:
   schedule:
-    - cron: 30 * */1 * *
+    - cron: 30 */24 * * *
   workflow_dispatch:
 jobs:
   rclone-syncProcess:
